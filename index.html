@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Event Handling Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>JavaScript Events Playground</h1>
+
+  <!-- 1. Event Handling Section -->
+  <section id="event-section">
+    <h2>Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <div id="hoverBox">Hover over me!</div>
+    <input type="text" id="keyInput" placeholder="Type something..." />
+    <p id="outputInformation"></p>
+    <button id="secretBtn">Don't Double-Click Me</button>
+  </section>
+
+  <!-- 2. Interactive Elements Section -->
+  <section id="interactive-section">
+    <h2>Interactive Elements</h2>
+    <button id="colorChanger">Change My Color</button>
+    <div id="imageGallery">
+      <img id="galleryImg" src="https://via.placeholder.com/300" alt="Gallery" />
+      <button id="nextImg">Next Image</button>
+    </div>
+
+    <div class="tabs">
+      <button class="tab-btn" data-tab="1">Tab 1</button>
+      <button class="tab-btn" data-tab="2">Tab 2</button>
+      <div id="tab-content"></div>
+    </div>
+  </section>
+
+  <!-- 3. Form Validation Section -->
+  <section id="form-section">
+    <h2>Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Your Name" required><br>
+      <input type="email" id="email" placeholder="Email Address" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <button type="submit">Register</button>
+    </form>
+    <div id="feedback"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
